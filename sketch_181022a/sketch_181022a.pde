@@ -23,6 +23,7 @@ fill(#ff0307) ; //measles dots
 ellipse (random(width), random(height), width*1/75, height*1/75) ;
 ellipse (random(width), random(height), width*1/75, height*1/75); 
 ellipse (width*1/16, height*5/8, width*1/75, height*1/75) ;
+ellipse (width*270/420, height*11/16, width*1/75, height*1/75) ;
 ellipse (width*700/1000, height*1421/9202, width*1/75, height*1/75);
 ellipse (random(width), random(height), width*1/75, height*1/75) ;
 }
