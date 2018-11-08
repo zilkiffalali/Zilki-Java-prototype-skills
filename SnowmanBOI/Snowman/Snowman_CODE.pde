@@ -14,14 +14,16 @@ int cricle2d;
 int circle3X;
 int circle3Y;
 int circle3D;
- 
 //eye
 int eyeRX;
 int eyeRY;
 int eyeLX;
 int eyeLY;
 int eyeD;
-//eyes
+//hat
+int hatline;
+int hatbox;
+
 
 
 
@@ -43,7 +45,7 @@ circle2Y = (height*7/16);
 cricle2d = (width/3);
 //base-of-snownman
 circle3X = (width/2);
-circle3Y = (height*14/16);
+circle3Y = (height*12/16);
 circle3D = (width*1/2);
 //bonless eyes (right)
 eyeLX  = (width*7/16);
@@ -52,12 +54,13 @@ eyeD  = (width*1/16);
 //right eyejhpotyirklyuh; eye
 eyeRX = (width*9/16);
 eyeRY = (height*1/4);
+//hat code
 
 
 fill (WHITE);
 ellipse (circle1X,circle1Y, circle1D, circle1D);
 ellipse (circle2X, circle2Y, cricle2d, cricle2d);
-ellipse (circle3X, circlce3Y, circle3D, circle3D) ;
+ellipse (circle3X, circle3Y, circle3D, circle3D) ;
 fill (#000000);
 ellipse (eyeLX, eyeLY, eyeD, eyeD);
 ellipse (eyeRX, eyeRY, eyeD, eyeD);
