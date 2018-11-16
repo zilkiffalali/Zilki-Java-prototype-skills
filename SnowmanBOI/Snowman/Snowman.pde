@@ -1,9 +1,7 @@
 //global variables
-PImage img;
 void setup() {
   size(500, 600);
-  img = loadImage ("snowclipart.jpg");
-  background ("snowclipart.jpg");
+  background (#66B2FF);
 }
 void draw () {
   snowmandraw ();
