@@ -23,6 +23,7 @@ void setup() {
   measlesX = random(width);
   measlesY = random(height);
   measlesDiamter = width*1/75;
+  fill (#B69292);
   ellipse(faceX, faceY, width, width); //Face
   ellipse(leftEyeX, leftEyeY, eyeDiameter, eyeDiameter); //Left Eye
   ellipse(rightEyeX, rightEyeY, eyeDiameter, eyeDiameter); //Rigtht Eye
